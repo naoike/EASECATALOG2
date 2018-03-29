@@ -60,7 +60,9 @@ public class MainActivity extends AppCompatActivity  {
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick (AdapterView parent, View v,int position, long id){
+                String category =(String) parent.getAdapter().getItem(position);
                 Intent intent = new Intent(getApplication(),SubActivity.class);
+                intent.putExtra("category",category);
                 startActivity( intent );
 
 

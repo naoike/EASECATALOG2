@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+            />
 
         <TextView
             android:id="@+id/TextView2"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+            />
 
         <TextView
             android:id="@+id/TextView3"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+            />
 
         <TextView
             android:id="@+id/TextView4"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+             />
 
         <TextView
             android:id="@+id/TextView5"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+            />
 
         <TextView
             android:id="@+id/TextView6"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+             />
 
         <TextView
             android:id="@+id/TextView7"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:inputType="textMultiLine"
-            android:text="New Text" />
+             />
 
 
     </LinearLayout>

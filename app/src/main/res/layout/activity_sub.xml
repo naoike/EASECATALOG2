@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="#E2E3E4"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:background="#d3d3d3" />
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2E3E4"
+        android:gravity="center"
+        android:horizontalSpacing="0.5dp"
+        android:verticalSpacing="0.5dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+         />
+
+
+</RelativeLayout>
